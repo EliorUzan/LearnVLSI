@@ -1,0 +1,112 @@
+.navbar {
+    background-color: #3498db;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .rest-of-the-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+  
+  .navbar a:hover {
+    background-color: #2980b9;
+  }
+
+  /* Dropdown menu styles */
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: inherit;
+    margin: 0;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(44, 62, 80, 0.9); /* Dark background color with transparency */
+    border: 1px solid #fff; /* Border for the dropdown content */
+    border-top: none; /* Remove top border for the dropdown content */
+    border-radius: 0 0 8px 8px; /* Rounded edges at the bottom of the dropdown menu */
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #fff; /* Text color for dropdown content */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #34495e; /* Hover background color for dropdown content */
+  }
+  
+  .dropdown-content .more-btn {
+    border-radius: 0 0 8px 8px; /* Rounded bottom edges for the "More" button */
+    padding: 10px 16px; /* Adjusted padding for the "More" button */
+    width: 100%; /* Make the "More" button fill the entire width */
+    text-align: left; /* Align text to the left within the "More" button */
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Additional button style */
+  .more-btn {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .more-btn:hover {
+    background-color: #1c6382;
+  }
+  
+  /* Sign In button style */
+  .sign-in-btn {
+    background-color: #27ae60; /* Green color for Sign In button */
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 20px; /* Padding for the button */
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners for the Sign In button */
+    box-sizing: border-box; /* Include padding in button width */
+    margin-top: -15px; /* Negative margin to adjust the position */
+    margin-left: 50px;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #219d53; /* Darker green color on hover */
+  }
+  
+  /* Logo styling */
+  .logo {
+    margin-right: 50px;
+  }
+  

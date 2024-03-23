@@ -1,0 +1,21 @@
+.container {
+    flex: 1;
+    padding: 20px;
+    background-color: #2c3e50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 100%;
+    overflow-y: auto;
+
+    display: flex; /* Center content horizontally and vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column; /* Arrange content in a column */
+}
+
+.about-image {
+    width: 70%;
+    height: auto;
+    margin-bottom: 20px;
+  }
