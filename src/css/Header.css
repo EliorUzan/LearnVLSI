@@ -106,7 +106,27 @@
   }
   
   /* Logo styling */
-  .logo {
+  /* .logo {
+    display: inline-block;
+    width: auto;
+    height: 50px; 
+    background-size: contain;
     margin-right: 50px;
+    vertical-align: middle;
+  } */
+  
+  .logo {
+    display: flex; /* Use flex to align the image */
+    align-items: center; /* Center the image vertically */
+    padding: 0 !important; /* Adjust padding as needed */
+    margin:0;
+    border: 0;
   }
   
+  .logo-img {
+    height: 100px; /* Maintain the aspect ratio */
+    width: auto; /* Adjust width as needed */
+    max-height: 100%; /* Ensure the image is not taller than the navbar */
+    margin-bottom: 0;
+    border: 0;
+  }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Header.css'
-// import logoImg from '../navbar_logo.png'; // Import the logo image
+import logoImg from '../navbar_logo.png'; // Import the logo image
 
 const Header = () => {
   return (
@@ -9,8 +9,8 @@ const Header = () => {
       <div className="logo">
         {/* Your logo image or text goes here */}
         <Link to="/" className="logo">
-            {/* <img src={logoImg} alt="Logo" className="logo-img" /> */}
-            <img src="the_img_tags_should_appear_as_above" alt="Logo" className="logo-img" />
+            <img src={logoImg} alt="Logo" className="logo-img" />
+            {/* <img src="the_img_tags_should_appear_as_above" alt="Logo" className="logo-img" /> */}
         </Link>
       </div>
       <div className="rest-of-the-buttons">
