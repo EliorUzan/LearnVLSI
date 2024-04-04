@@ -1,5 +1,7 @@
 import React from 'react';
+import '../css/css_vars.css'
 import '../css/Home.css'
+
 
 const Home = () => {
   return (

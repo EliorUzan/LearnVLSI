@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/css_vars.css'
 import '../css/Footer.css'
 
 const Footer = () => {

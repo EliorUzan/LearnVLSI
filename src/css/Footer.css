@@ -1,18 +1,22 @@
 /* Footer button style */
 .footer {
-    background-color: #3498db; /* Match footer color with navbar */
-    color: #fff;
+    background-color: var(--foorter-background-color); /* Match footer color with navbar */
+    color: var(--footer-text-color);
     text-align: center;
     padding: 10px;
     position: fixed; /* Fixed positioning */
     left: 0;
     bottom: 0;
     width: 100%; /* Full width */
+    border-top: 5px solid transparent; /* Set an initial transparent border */
+    padding: 5px; /* Add padding for content */
+    background: linear-gradient(white, white) padding-box, /* Create a linear gradient for the background */
+                linear-gradient(to right, #ccc, #aaa) border-box; /* Create a linear gradient for the border */
 }
 
 
 .contact-btn {
-    color: #ffffff; /* Blue color for the Contact Us button */
+    color: var(--footer-text-color); /* Blue color for the Contact Us button */
     text-decoration: none;
     font-size: 14px;
   }

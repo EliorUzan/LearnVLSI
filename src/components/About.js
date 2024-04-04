@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/css_vars.css';
 import '../css/About.css'; // Reusing the Home component CSS for now
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
       </p>
       <img
         src="https://via.placeholder.com/400x200"
-        alt="Placeholder Image"
+        alt="plavceholder"
         className="about-image"
       />
       <p>

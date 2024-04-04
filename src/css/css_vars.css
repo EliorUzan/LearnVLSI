@@ -1,0 +1,31 @@
+/* variables.css */
+:root {
+    --body-text-color: #4B4B4B; /* Charcoal Grey for strong readability */
+    --general-frame-color: #FFFFFF; /* Classic White for frames and boxes */
+    --general-textbox-bg-color: rgba(0, 0, 0, 0.1);
+    --general-textbox-placeholder-text-color:#918d8d;
+    --bodycolor-color: #F5F5F5; /* Whisper Grey for a soft, neutral background */
+    --prominent-btn: #FF6B6B; /* Bittersweet for a pop of color on buttons */
+    --prominent-btn-hover: #FF8787; /* Lighter Bittersweet for hover effect */
+    --special-btn-text-color: #F5F5F5;
+    --body-text-link-hover: #4D96FF; /* Maya Blue for links to stand out on hover */
+
+    /* navbar color */
+    --navbar-background-color: #272727; /* Mine Shaft for a darker navbar look */
+    --navbar-dropdown-menu-background-color: #333333; /* Dark Charcoal for dropdown menu */
+    --navbar-dropdown-frame-color: var(--general-frame-color);
+    --navbar-dropdown-text-color: #FFFFFF;
+    --navbar-dropdown-onhover-bg-color: #FF6B6B; /* Bittersweet for dropdown hover */
+    --navbar-text-color: #FFFFFF; /* White text for better readability */
+    --navbar-btn-hover-color: #3C3C3C; /* Dark Grey for a subtle hover effect */
+    --navbar-sign-in-btn-color: var(--prominent-btn);
+
+    /* footer colors */
+    --footer-background-color: var(--navbar-background-color);
+    --footer-text-color: var(--body-text-color);
+
+    /* special pages color  */
+    --contactUs-send-message-btn: var(--prominent-btn);
+    --linkedin-btn: #0077B5; /* LinkedIn Blue for social media buttons */
+    --linkedin-btn-hover: #005E93; /* Dark LinkedIn Blue for hover effect */
+}

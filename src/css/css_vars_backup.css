@@ -1,0 +1,39 @@
+/* variables.css */
+:root {
+    --body-text-color: #fff;
+    --general-frame-color: #fff;
+    --general-textbox-bg-color: rgba(255, 255, 255, 0.1);
+    --bodycolor-color: #2c3e50; /* Another color */
+    --prominent-btn: #27ae60;
+    --prominent-btn-hover:#219d53; 
+    --body-text-link-hover: #ccc;
+
+    /* navbar color */
+    --navbar-background-color: #3498db; /* Your main color */
+    --navbar-dropdown-menu-background-color: rgba(44, 62, 80, 0.9);
+    --navbar-dropdown-frame-color: var(--general-frame-color);
+    --navbar-dropdown-text-color: #fff;
+    --navbar-dropdown-onhover-bg-color: #34495e;
+    --navbar-text-color: var(--body-text-color);
+    --navbar-btn-hover-color: #2980b9;
+    --navbar-sign-in-btn-color: var(--prominent-btn);
+
+    /* footer colors */
+    
+    --foorter-background-color: var(--navbar-background-color);
+    --footer-text-color: var(--body-text-color);
+
+    /* special pages color  */
+    --contactUs-send-message-btn: var(--prominent-btn);
+    --linkedin-btn: #0077b5;
+    --linkedin-btn-hover: #005f91;
+    
+    
+
+    /* buttons colors */
+    
+    
+
+    /* frames color */
+    
+  }
