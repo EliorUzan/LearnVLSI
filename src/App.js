@@ -6,6 +6,7 @@ import Home from './components/Home';
 import SignIn from './components/SignIn'; // Import SignIn component
 import About from './components/About'; // Import About component
 import ContactUs from './components/ContactUs'
+import Register from './components/Register'
 import './App.css'
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Routes> {/* Use Routes component instead of Switch */}
           <Route path="/" element={<Home />} />
           <Route path="/signin" element={<SignIn />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/contact-us" element={<ContactUs />} />
           {/* Add more routes for other pages here */}

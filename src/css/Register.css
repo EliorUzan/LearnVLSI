@@ -1,0 +1,79 @@
+.registration-container {
+    background-color: var(--bodycolor-color); /* Dark background color */
+    color: var(--body-text-color); /* Text color */
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 100%;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--general-frame-color);
+    background-color: var(--general-textbox-bg-color);
+    color: var(--body-text-color);
+    box-sizing: border-box; /* Include padding in input width */
+}
+
+.form-group input:focus {
+    outline: none;
+}
+
+.form-group input::placeholder {
+    color: var(--body-text-color);
+}
+
+.password-match-error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.register-btn {
+    background-color: var(--prominent-btn); /* Use the same prominent button color */
+    color: var(--special-btn-text-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: var(--prominent-btn-hover); /* Lighter color on hover */
+}
+
+.existing-account p {
+    margin-bottom: 0;
+}
+
+.signin-link {
+    color: var(--body-text-color);
+    text-decoration: underline;
+}
+
+.signin-link:hover {
+    color: var(--body-text-link-hover); /* Lighter color on hover */
+}
+
+.error-message {
+    color: red; /* Set the color to red */
+    margin-top: 10px; /* Add some top margin for spacing */
+  }
+  
