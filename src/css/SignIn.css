@@ -81,3 +81,8 @@
     color: var(--body-text-link-hover); /* Lighter color on hover */
   }
   
+  .error-message {
+    color: red; /* Set the color to red */
+    margin-top: 10px; /* Add some top margin for spacing */
+    margin-bottom: 10px;
+  }
