@@ -27,7 +27,7 @@ const SignIn = ({ onSignIn }) => {
       });
       console.log('Sign In Response:', response.data); // Log the response from the server
       if (response.data.ok) {
-        onSignIn(response.data.full_name); // Pass full name to the parent component
+        onSignIn(response.data); // Pass full name to the parent component
         navigate('/');
       } else {
         setSignInError('Unsuccessful Sign In');
