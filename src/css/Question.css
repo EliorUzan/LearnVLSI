@@ -1,0 +1,15 @@
+.custom-list {
+ /*   list-style-type: none; /* Remove default bullet points */
+}
+
+.custom-list li {
+    margin-bottom: 5px; /* Adjust margin between list items as needed */
+}
+
+.answer-div-container {
+    text-align: left;
+}
+
+.question-list-align-left {
+    text-align: left;
+}

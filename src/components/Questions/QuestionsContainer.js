@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import PlaceholderQuestion from './PlaceholderQuestion';
+import Question from './Question';
 import { Link } from 'react-router-dom';
-import '../../css/Questions.css';
+import '../../css/css_vars.css'
+import '../../css/QuestionsContainer.css';
 
 const QuestionContainer = ({ authenticated, pageName }) => {
   const [currentQuestion, setCurrentQuestion] = useState(null);
@@ -49,7 +50,7 @@ const QuestionContainer = ({ authenticated, pageName }) => {
     <div className="question-container">
       {errorMessage && <p className="error-message">{errorMessage}</p>}
       {currentQuestion && (
-        <PlaceholderQuestion
+        <Question
           questionData={currentQuestion}
         />
       )}

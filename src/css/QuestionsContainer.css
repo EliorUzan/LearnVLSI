@@ -63,3 +63,34 @@
 .auth-btn:hover {
   background-color: var(--prominent-btn-hover);
 }
+
+.reveal-answer-btn {
+    background-color: var(--reveal-answer-btn);
+    color: var(--special-btn-text-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Add some padding from the top */
+    margin-bottom: 10px; /* Add some padding from the bottom */
+  }
+  
+  .reveal-answer-btn:hover {
+    background-color: var(--reveal-answer-btn-hover);
+  }
+  
+  .answer-section {
+    border-top: solid rgba(0, 0, 0, 0.514) 2px;
+    margin-top: 20px;
+  }
+  
+  .answer-text {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .answer-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }

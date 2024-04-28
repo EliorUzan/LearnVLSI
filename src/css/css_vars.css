@@ -28,4 +28,6 @@
     --contactUs-send-message-btn: var(--prominent-btn);
     --linkedin-btn: #0077B5; /* LinkedIn Blue for social media buttons */
     --linkedin-btn-hover: #005E93; /* Dark LinkedIn Blue for hover effect */
+    --reveal-answer-btn: #598C3F;
+    --reveal-answer-btn-hover: #598c3fc4;
 }

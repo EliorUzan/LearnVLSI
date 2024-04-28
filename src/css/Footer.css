@@ -1,6 +1,6 @@
 /* Footer button style */
 .footer {
-    background-color: var(--foorter-background-color); /* Match footer color with navbar */
+    background-color: var(--footer-background-color); /* Match footer color with navbar */
     color: var(--footer-text-color);
     text-align: center;
     padding: 10px;
