@@ -16,9 +16,9 @@ const Header = ({ authenticated, fullName, onSettingsClick }) => {
         <div className="dropdown">
           <button className="dropbtn">Interview Questions</button>
           <div className="dropdown-content">
-            <Link to="/questions/physical-design">Physical Design</Link>
-            <Link to="/questions/design-verification">Design and Verification</Link>
-            <Link to="/questions/vlsi-general">VLSI General</Link>
+            <Link to="/questions/vlsi/physical-design">Physical Design</Link>
+            <Link to="/questions/vlsi/design-verification">Design and Verification</Link>
+            <Link to="/questions/vlsi/vlsi-general">VLSI General</Link>
           </div>
         </div>
         <div className="dropdown">

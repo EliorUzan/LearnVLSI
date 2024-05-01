@@ -38,29 +38,32 @@ const App = () => {
           <Route path="/about-us" element={<About />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route
-            path="questions/physical-design"
+            path="questions/vlsi/physical-design"
             element={
               <QuestionContainer
                 authenticated={authenticated}
-                pageName="physical-design"
+                sub_field="physical-design"
+                field="vlsi"
               />
             }
           />
           <Route
-            path="questions/design-verification"
+            path="questions/vlsi/design-verification"
             element={
               <QuestionContainer
                 authenticated={authenticated}
-                pageName="design-verification"
+                sub_field="design-verification"
+                field="vlsi"
               />
             }
           />
           <Route
-            path="questions/vlsi-general"
+            path="questions/vlsi/vlsi-general"
             element={
               <QuestionContainer
                 authenticated={authenticated}
-                pageName="vlsi-general"
+                sub_field="vlsi-general"
+                field="vlsi"
               />
             }
           />
