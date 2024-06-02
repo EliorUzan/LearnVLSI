@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/.learn-vlsi/static/css/main.e50d316b.css",
-    "main.js": "/.learn-vlsi/static/js/main.d3b3fda7.js",
-    "static/js/453.4b30436b.chunk.js": "/.learn-vlsi/static/js/453.4b30436b.chunk.js",
-    "static/media/navbar_logo.png": "/.learn-vlsi/static/media/navbar_logo.d8d708371c6ce9fdfe02.png",
-    "index.html": "/.learn-vlsi/index.html",
-    "main.e50d316b.css.map": "/.learn-vlsi/static/css/main.e50d316b.css.map",
-    "main.d3b3fda7.js.map": "/.learn-vlsi/static/js/main.d3b3fda7.js.map",
-    "453.4b30436b.chunk.js.map": "/.learn-vlsi/static/js/453.4b30436b.chunk.js.map"
+    "main.css": "./static/css/main.e50d316b.css",
+    "main.js": "./static/js/main.6a6f3042.js",
+    "static/js/453.4b30436b.chunk.js": "./static/js/453.4b30436b.chunk.js",
+    "static/media/navbar_logo.png": "./static/media/navbar_logo.d8d708371c6ce9fdfe02.png",
+    "index.html": "./index.html",
+    "main.e50d316b.css.map": "./static/css/main.e50d316b.css.map",
+    "main.6a6f3042.js.map": "./static/js/main.6a6f3042.js.map",
+    "453.4b30436b.chunk.js.map": "./static/js/453.4b30436b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e50d316b.css",
-    "static/js/main.d3b3fda7.js"
+    "static/js/main.6a6f3042.js"
   ]
 }
