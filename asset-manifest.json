@@ -10,7 +10,7 @@
     "453.4b30436b.chunk.js.map": "./static/js/453.4b30436b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e50d316b.css",
-    "static/js/main.e361f068.js"
+    "./static/css/main.e50d316b.css",
+    "./static/js/main.e361f068.js"
   ]
 }
