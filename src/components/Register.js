@@ -4,6 +4,9 @@ import axios from 'axios'; // Import Axios for HTTP requests
 import '../css/css_vars.css';
 import '../css/Register.css';
 
+const host = "https://server-learnvlsi.fly.dev"
+// const host = "http://localhost:3001"
+
 const Register = () => {
   const navigate = useNavigate();
   const [password, setPassword] = useState('');
@@ -23,7 +26,7 @@ const Register = () => {
 
   const sendRegistrationData = async (registrationData) => {
     try {
-      const response = await axios.post('http://localhost:3001/register', registrationData);
+      const response = await axios.post(`${host}/register`, registrationData);
       console.log('Response from server:', response.data); // Log the response from the server
       if (response.data.ok) {
         navigate('/');

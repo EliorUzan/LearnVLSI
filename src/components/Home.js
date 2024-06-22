@@ -3,17 +3,18 @@ import '../css/css_vars.css'
 import '../css/Home.css'
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-const host = "http://localhost:3001"
+// const host = "http://localhost:3001"
+const host = "https://server-learnvlsi.fly.dev"
 
 const firstBlogPost_header = "initial-roles-in-the-industry"
 const secondBlogPost_header = "big-companies-in-israel-semiconductor-industry"
 const thirdBlogPost_header = "placeHolder3"
 const fourthBlogPost_header = "placeHolder4"
 
-// const firstBlogPost = await axios.get(`${host}/blogPosts/showPost/${firstBlogPost_header}`);
-// const firstBlogPost_homePageSummary = await axios.get(`${host}/blogPosts/blogPostItems/${firstBlogPost.data.home_page_summary_HTML}`);
+const firstBlogPost = await axios.get(`${host}/blogPosts/showPost/${firstBlogPost_header}`);
+const firstBlogPost_homePageSummary = await axios.get(`${host}/blogPosts/blogPostItems/${firstBlogPost.data.home_page_summary_HTML}`);
 
-// console.log(firstBlogPost_homePageSummary)
+console.log(firstBlogPost_homePageSummary)
 const Home = () => {
   return (
     <div className="home-container">

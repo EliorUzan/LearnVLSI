@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 import '../../css/css_vars.css';
 import '../../css/QuestionsContainer.css';
 
-const host = "http://localhost:3001"
+// const host = "http://localhost:3001"
+const host = "https://server-learnvlsi.fly.dev"
 
 const QuestionContainer = ({ authenticated, field, sub_field }) => {
   const [QList, setQList] = useState([]);

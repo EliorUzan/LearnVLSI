@@ -4,6 +4,9 @@ import axios from 'axios'; // Import Axios for HTTP requests
 import '../css/css_vars.css';
 import '../css/SignIn.css';
 
+const host = "https://server-learnvlsi.fly.dev"
+// const host = "http://localhost:3001"
+
 const SignIn = ({ onSignIn }) => {
   const navigate = useNavigate();
   const [email, setEmail] = useState('');
@@ -21,7 +24,7 @@ const SignIn = ({ onSignIn }) => {
   const handleSignIn = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3001/login', {
+      const response = await axios.post(`${host}/login`, {
         email: email,
         password: password,
       });
